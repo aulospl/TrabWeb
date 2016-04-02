@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    background-color: #0F6;
+    box-shadow: 0px 2px 5px 0px #00BB4B;
+}
+
+.user-settings {
+    width: 30%;
+    padding: 15px;
+}
+
+img.user-profile {
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    float: left;
+}
+
+.post{
+    width: 50%;
+    border-radius: 5px;
+    border-color: grey;
+    box-shadow: 0 0 5px 5px darkgrey;
+    margin-left: 25%;
+    margin-top: 1.5%
+}
+
+
+.content{
+    margin: 5px;
+}
+
+.post .actions {
+
+}
+
+.new-post {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.new-post p {
+    font-weight: 600;
+    font-size: 15px;
+}
+.new-post textarea {
+    width: 100%;
+}
+
+.post-filter {
+    width: 20%;
+    padding: 15px;
+}
+
+.post-filter input{
+    width: 100%;
+}
+
+.post-filter{
+    margin-top: 15px;
+}
+
+.post-filter .btn {
+    margin-top: 5px;
+    width: 100%;
+}
+
+a.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 1px 1px 1px 1px;
+}
+
+a.navbutton:hover{
+    color: black;
+    text-decoration: none;
+    background-color: #0F6;
+}
+li{
+    list-style: none;
+}
+#navbar{
+    background-color: #30aacc;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+#footer{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;;
+    width: 100%;
+}
+.verticalLine {
+    border-left: thick solid #0bc76d;
+    box-shadow: 0px 2px 5px 0px #00BB4B;
+}
