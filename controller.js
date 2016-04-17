@@ -2,7 +2,7 @@ var newPost = angular.module('newPost', []);
 
 newPost.service('postContent', function() {
 	this.content = '';
-	
+
 	this.changeText = function(newContent) {
 		this.content = newContent;
 	};
@@ -12,7 +12,7 @@ newPost.service('postContent', function() {
 	}
 });
 
-newPost.controller('newPostControl', function ($scope, postContent) {   
+newPost.controller('newPostControl', function ($scope, postContent) {
     $scope.changeText = function(){
         postContent.changeText($scope.newposttext);
     };
