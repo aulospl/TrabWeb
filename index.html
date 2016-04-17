@@ -16,12 +16,30 @@
         <script type="text/javascript" src="view.js"></script>
     </head>
     <body ng-app="newPost">
+        <!--
         <nav class="container" id="navbar">
             <a class="navbutton" href="">Home</a>
             <a class="navbutton" href="">Perfil</a>
             <a class="navbutton" href="">Opções</a>
-            <!-- se possivel, colocar login no canto direito -->
             <a class="navbutton" href="">Login</a>
+        </nav>
+        -->
+
+        <nav class="navbar navbar-default" style="margin-bottom: 0">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#">TrabWeb</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Opções</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="header">
             <div class="user-settings">
@@ -52,7 +70,7 @@
         </div>
 
         <div class="post-container"  ng-controller="postContainerControl">
-            
+            <!-- Post -->>
             <div class="post">
                 <div class="content">
                     <p class="ng-binding">

@@ -5,8 +5,12 @@ body{
 .header {
     display: inline-flex;
     width: 100%;
-    background-color: #0F6;
+    background-color: #97d6ce;
     box-shadow: 0px 2px 5px 0px #00BB4B;
+}
+
+textarea {
+    resize: none;
 }
 
 .user-settings {
@@ -70,6 +74,7 @@ img.user-profile {
     width: 100%;
 }
 
+
 a.navbutton{
     color: white;
     text-decoration: none;
@@ -87,13 +92,8 @@ a.navbutton:hover{
 li{
     list-style: none;
 }
-#navbar{
-    background-color: #30aacc;
-    width: 100%;
-    z-index: 1;
-    position: fixed;
-    top: 0;
-}
+
+
 #footer{
     background-color: cadetblue;
     text-align: center;
